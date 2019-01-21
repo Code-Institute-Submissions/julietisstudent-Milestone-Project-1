@@ -6,15 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Monkees</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Aleo:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 </head>
 
 <body>
     <header class="container">
         <div class="callout jumbotron text-center">
-            <h1>The Monkees</h1>
-            <h2>Fan Base Media Box</h2>
+            <h1>THE MONKEES</h1>
+            <h2>FAN BASE MEDIA BOX</h2>
             <p class="lead">The Monkees straight to your eyes and ears. Sign up today to be notified of their new live event performances and latest releases</p>
-            <P><button class="btn btn-primary">Sign Up!</button></P>
+            <P><button class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></P>
         </div>
     </header>
         
@@ -47,6 +50,38 @@
             
         </section>
     
+
+<!-- Modal -->
+<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">The Monkees Fan Base Sign Up!</h4>
+      </div>
+      <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="passwordRepeat">Repeat Password</label>
+                <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+              </div>
+              <button type="submit" class="btn btn-primary">Sign Up!</button>
+            </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>

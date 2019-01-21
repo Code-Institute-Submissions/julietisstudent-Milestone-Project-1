@@ -1,0 +1,56 @@
+body {
+    font-family: 'Aleo', serif;
+}
+
+body {
+ 
+     background: url(../images/the_monkees.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  
+}
+
+.btn-primary {
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    border-color: black;
+    
+}
+
+.btn:hover {
+    background-color: #d8d8d8;
+    color: black;
+    
+}
+
+.jumbotron {
+    background-color: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    color: white;
+    font-weight: bold;
+}
+
+.h2, h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
