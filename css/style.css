@@ -54,3 +54,70 @@ body {
     font-weight: bold;
 }
 
+
+.menuitem a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-color {
+    background-color: black;
+}
+
+.list-inline>li {
+    text-align: center;
+    height: 34px;
+}
+
+.menuitem span {
+    font-weight: bold;
+}
+
+.menuitem a i {
+    display: block;
+}
+
+a.hvr-fade:hover {
+    background-color: #cccccc;
+}
+
+h1,h2,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin: 0;
+}
+
+div.col-sm-4 {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+i.fa.fa-youtube {
+    color: white;
+}
+
+i.fa.fa-twitter {
+    color: white;
+}
+
+i.fa.fa-facebook {
+    color: white;
+}
