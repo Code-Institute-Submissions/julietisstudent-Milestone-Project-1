@@ -101,6 +101,10 @@ footer {
     color: white;
     height: 100px;
     margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 div.col-sm-4 {
@@ -120,4 +124,28 @@ i.fa.fa-twitter {
 
 i.fa.fa-facebook {
     color: white;
+}
+
+.audio-header {
+    padding-top: 100px;
+}
+
+.carousel-indicators {
+    position: fixed;
+    padding-bottom: 100px;
+}
+
+span.glyphicon.glyphicon-chevron-right {
+    position: static;
+    padding-top: 300px;
+}
+
+span.glyphicon.glyphicon-chevron-left {
+    position: static;
+    padding-top: 300px;
+}
+
+img {
+    width: 50%;
+    margin: auto;
 }
