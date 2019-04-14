@@ -8,7 +8,7 @@ event bookings for fans around the world.
 
 ## Demo
 
-A live demo can be found here
+A live demo can be found [here](https://julietisstudent.github.io/Milestone-Project-1/).
 
 ## UX
 
