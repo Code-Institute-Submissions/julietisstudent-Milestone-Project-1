@@ -149,3 +149,21 @@ img {
     width: 50%;
     margin: auto;
 }
+
+.bg-color-event {
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
