@@ -38,7 +38,8 @@ Bootstraps responsive embed feature has been used to showcase the bands music vi
 ## Testing
 
 The site has been tested using the Chrome Developer Tools to confirm the site is responsive on multiple mobile devices extending to desktop versions.
-Input data has been used to check the functionality of the modals.
+Input data has been used to check the functionality of the modals. The site was also tested across multiple browsers to 
+ensure compatibility and responsiveness.
 
 ## Deployment
 
